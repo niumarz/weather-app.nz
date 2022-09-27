@@ -106,21 +106,21 @@ body{
 .cubo {
     height: 60%;
     transform-style: preserve-3d;
-    animation: rotar 8s linear infinite
+    animation: rotar 8s linear infinite;
 }
 .cubo > span {
     position: absolute;
     width: 4em;
     height: 4em;
     border: 2px solid white;
-    box-shadow: inset 0px 0px 15px rgba(67, 195, 255, .15), 0px 0px 40px 1px rgba(67, 195, 255, .15);
+    box-shadow: inset 0px 0px 15px 5px rgba(67, 195, 255, .15), 0px 0px 40px 1px rgba(67, 195, 255, .15);
     border-radius: 4px;
 }
 .cubo > span:nth-child(1){transform: rotateY(90deg)translateZ(2em);
 }
-.cubo > span:nth-child(2){transform: rotateY(90deg)translateZ(2em);
+.cubo > span:nth-child(2){transform: rotateY(90deg)translateZ(-2em);
 }
-.cubo > span:nth-child(3){transform: rotateY(90deg)translateZ(2em);
+.cubo > span:nth-child(3){transform: rotateY(90deg)translateZ(-2em);
 }
 .cubo > span:nth-child(4){transform: rotateY(90deg)translateZ(2em);
 }
